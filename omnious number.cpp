@@ -50,9 +50,9 @@ int numberOminous(int a, int b, int k, int *delNos, int n){
 }
 
 int main() {
-    int a, b, k;
+    int a, b, k; // range a to b, k or more number of times digit must not occur
     cin >> a >> b >> k;
-    int n;
+    int n; // numbers that are not allowed more than k number of times
     cin >> n;
     int *delNos = new int[n];
     for(int i=0; i<n; i++){
